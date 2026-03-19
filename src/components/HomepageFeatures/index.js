@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Permissionless',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/lock-small.svg').default,
     description: (
       <>
         Kommodo protocol is fully permissionless. Anyone can borrow and lend agains any token.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
     {
       title: 'No oracles',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/crystal_ball-small.svg').default,
     description: (
       <>
         Kommodo protocol is decentralized and does not rely on any external oracle.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'No forced liquiditions',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/contract-small.svg').default,
     description: (
       <>
         Solvency is guaranteed through the bonding curve. Removing the need for forced liquidations.

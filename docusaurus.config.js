@@ -17,6 +17,7 @@ const config = {
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    experimental_router: 'hash', // Beschikbaar in Docusaurus v3+
   },
 
   // Set the production url of your site here
@@ -24,6 +25,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: false, 
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -97,11 +99,11 @@ const config = {
             items: [
               {
                 label: 'Design',
-                to: '/docs/Design/intro',
+                to: '/docs/Design/Introduction',
               },
               {
                 label: 'Implementation',
-                to: '/docs/Implementation/intro',
+                to: '/docs/Implementation/Introduction',
               },
             ],
           },

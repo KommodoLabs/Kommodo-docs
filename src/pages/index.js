@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Design/intro">
+            to="/docs/Design/Introduction">
             Learn more
           </Link>
         </div>
@@ -32,8 +32,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Docs`}
+      description="permissionless, on-chain lending protocol <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
