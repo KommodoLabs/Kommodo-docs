@@ -10,5 +10,5 @@ The latest contracts of [@kommodo-core](https://github.com/KommodoLabs/Kommodo-c
 ### Sepolia
 | Contract | Address |
 |---|---|
-| `KommodoFactory.sol` | [`0x653CAF2dBDDb5D3A6f71D67F8B379eBdb1a9aF82`](https://sepolia.etherscan.io/address/0x653CAF2dBDDb5D3A6f71D67F8B379eBdb1a9aF82)|
-| `NonfungibleLendManager.sol` | [`0x30a0eD81BC3A6F9Da6Ac1c290f94FF052E7da60d`](https://sepolia.etherscan.io/address/0x30a0eD81BC3A6F9Da6Ac1c290f94FF052E7da60d)|
+| `KommodoFactory.sol` | [`0x8685767eB948CAd4577c187ECD82A3b7a46A3f5E`](https://sepolia.etherscan.io/address/0x8685767eB948CAd4577c187ECD82A3b7a46A3f5E)|
+| `NonfungibleLendManager.sol` | [`0xf9b69c2B7E682Ba63544f3aF3B41AF8CCB4Ab545`](https://sepolia.etherscan.io/address/0xf9b69c2B7E682Ba63544f3aF3B41AF8CCB4Ab545)|
