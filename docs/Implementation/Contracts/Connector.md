@@ -58,30 +58,6 @@ Implements `IUniswapV3MintCallback`. Called by the Uniswap V3 pool during `pool.
 | `amount1Owed` | `uint256` | Amount of `token1` owed to the pool. |
 | `data` | `bytes` | ABI-encoded `MintCallbackData` containing the pool key and payer address. |
 
-### `addLiquidity` (amount-based)
-
-```solidity
-function addLiquidity(
-    address tokenA, address tokenB, uint24 poolFee,
-    int24 tickLower, int24 tickUpper,
-    uint128 amountA, uint128 amountB
-) internal returns (uint128 liquidity, uint256 amount0, uint256 amount1, IUniswapV3Pool pool)
-```
-
-Converts token amounts to a liquidity value using `LiquidityAmounts.getLiquidityForAmounts` at the pool's current `sqrtPriceX96`, then mints that liquidity into the position `[tickLower, tickUpper]`. Token transfers are fulfilled via `uniswapV3MintCallback`.
-
-| Parameter | Type | Description |
-|---|---|---|
-| `tokenA` | `address` | token0 of the pool. |
-| `tokenB` | `address` | token1 of the pool. |
-| `poolFee` | `uint24` | Fee tier used to resolve the pool address. |
-| `tickLower` | `int24` | Lower tick of the position. |
-| `tickUpper` | `int24` | Upper tick of the position. |
-| `amountA` | `uint128` | Desired token0 amount, used to compute liquidity. |
-| `amountB` | `uint128` | Desired token1 amount, used to compute liquidity. |
-
-**Returns:** `liquidity` — units minted; `amount0` / `amount1` — tokens actually consumed; `pool` — the resolved pool instance.
-
 ### `addLiquidity` (liquidity-based)
 
 ```solidity

@@ -226,9 +226,21 @@ Fully closes a loan: repays the borrowed liquidity, returns collateral to the ca
 function setInterest(bool token0, int24 tickBor, int128 delta) public
 ```
 
-Adjusts the pre-paid interest balance for the caller's loan at the given tick. Settles accrued interest since `loan.start` before applying the delta. A positive `delta` deposits additional interest tokens; a negative `delta` withdraws the excess.
+Adjusts the pre-paid interest balance for the caller's loan at the given tick through an internal function call `storeInterest`. Settles accrued interest since `loan.start` before applying the delta. A positive `delta` deposits additional interest tokens; a negative `delta` withdraws the excess.
 
-**Reverts:** `"open: unclosed loan"` if the current accrued interest already exceeds the pre-paid balance.
+**Reverts:** `"storeInterest: unclosed loan"` if the current accrued interest already exceeds the pre-paid balance.
+
+---
+
+### `updateInterest`
+
+```solidity
+function updateInterest(bool token0, int24 tickBor, address owner) public
+```
+
+Update the used interest balance for the owners loan at the given tick, can be called by anyone. Settles accrued interest since `loan.start` and updates `loan.start` to current timestamp. 
+
+**Reverts:** `"updateInterest: unclosed loan"` if the current accrued interest already exceeds the pre-paid balance.
 
 ---
 
@@ -303,3 +315,4 @@ Returns the `borrower` mapping key for a loan: `keccak256(abi.encode(owner, tick
 - **Loan keys:** Use `getKey(owner, tickBor, token0)` to look up any loan in the `borrower` mapping.
 - **Unwind:** Any caller can invoke `close` once `getInterest(loan.amountCol, loan.start, block.timestamp) > loan.interest`.
 - **Slippage protection:** All functions that interact with the Uniswap V3 pool accept `amountMin` / `amountMax` parameters. Always set these to meaningful values in production.
+- **Reentrancy protection:** All public calls for `Kommodo.sol` and `NonfungibleLendManager` are protected against reentrancy via `ReentrancyGuard`. 

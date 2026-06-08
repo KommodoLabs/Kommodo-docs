@@ -218,3 +218,4 @@ This allows multiple NFT positions to share the same `Kommodo` lender slot while
 - **Flash protection:** Liquidity deposited in a given block via `mint` or `provide` is locked until the next block and cannot be removed by `take` in the same transaction.
 - **Burning:** A token cannot be burned until all liquidity has been removed via `take` and all pending balances have been withdrawn via `withdraw`.
 - **Off-chain enumeration:** Use the inherited `ERC721Enumerable` functions (`tokenOfOwnerByIndex`, `totalSupply`) to enumerate positions held by an address.
+- **Reentrancy protection:** All public calls are protected against reentrancy via `ReentrancyGuard`. 

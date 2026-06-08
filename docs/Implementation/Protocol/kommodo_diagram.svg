@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1400"
+   height="800"
+   viewBox="0 0 1400 800"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="kommodo_diagram.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.62857143"
+     inkscape:cx="463.75"
+     inkscape:cy="635.56818"
+     inkscape:window-width="2457"
+     inkscape:window-height="1220"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg16"
+     inkscape:antialias-rendering="true" />
+  <style
+     id="style1">
+text { font-family: Arial, sans-serif; }
+.title { font-size: 32px; font-weight: bold; }
+.section { font-size: 22px; font-weight: bold; }
+.label { font-size: 16px; }
+.small { font-size: 14px; }
+.box { fill: #f8f8f8; stroke: #444; stroke-width: 2; }
+.dashed { fill: none; stroke: #444; stroke-width: 2; stroke-dasharray: 8 6; }
+.arrow { fill: none; stroke: #2b6cff; stroke-width: 3; }
+</style>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch27"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop27" />
+    </linearGradient>
+    <marker
+       id="arrow"
+       markerWidth="10"
+       markerHeight="10"
+       refX="8"
+       refY="3"
+       orient="auto">
+      <path
+         d="M0,0 L0,6 L9,3 z"
+         fill="#2b6cff"
+         id="path1" />
+    </marker>
+  </defs>
+  <text
+     x="595.44397"
+     y="73.347519"
+     text-anchor="middle"
+     class="title"
+     id="text1"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578">𓆊 Komodo pool</text>
+  <!-- AMM -->
+  <rect
+     x="60.055939"
+     y="572.18555"
+     width="258.08945"
+     height="159.62175"
+     class="box"
+     id="rect2" />
+  <line
+     x1="61.766762"
+     y1="512.32739"
+     x2="319.85623"
+     y2="512.32739"
+     stroke="#444444"
+     stroke-dasharray="8.2862, 6.21465"
+     id="line2"
+     style="stroke-width:1.03577" />
+  <text
+     x="167.30724"
+     y="502.95886"
+     text-anchor="middle"
+     font-size="24.8586px"
+     id="text3"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578">Token A</text>
+  <text
+     x="168.95503"
+     y="567.224"
+     text-anchor="middle"
+     font-size="24.8586px"
+     id="text4"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578">Token B</text>
+  <rect
+     x="60.055939"
+     y="452.46921"
+     width="258.08945"
+     height="119.71632"
+     class="dashed"
+     id="rect4" />
+  <text
+     x="105.1674"
+     y="621.3714"
+     text-anchor="middle"
+     font-size="28.162px"
+     id="text5"
+     style="text-align:start;text-anchor:start;stroke-width:1.56456"
+     transform="scale(0.99705203,1.0029567)"><tspan
+       sodipodi:role="line"
+       id="tspan27"
+       x="105.1674"
+       y="621.3714"
+       style="stroke-width:1.56456"><tspan
+   style="font-weight:bold;stroke-width:1.56456"
+   id="tspan32">C</tspan>oncentrated</tspan><tspan
+       sodipodi:role="line"
+       id="tspan28"
+       x="105.1674"
+       y="656.57397"
+       style="stroke-width:1.56456"><tspan
+   style="font-weight:bold;stroke-width:1.56456"
+   id="tspan31">L</tspan>iquidity</tspan><tspan
+       sodipodi:role="line"
+       x="105.1674"
+       y="691.77655"
+       id="tspan29"
+       style="stroke-width:1.56456"><tspan
+   style="font-weight:bold;stroke-width:1.56456"
+   id="tspan30">P</tspan>ositions</tspan></text>
+  <!-- Komodo -->
+  <rect
+     x="609.52631"
+     y="523.03278"
+     width="623.12219"
+     height="211.21985"
+     rx="12.462443"
+     class="box"
+     id="rect5" />
+  <text
+     x="873.98846"
+     y="656.44189"
+     text-anchor="middle"
+     font-size="35.2163px"
+     id="text6"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578"><tspan
+       sodipodi:role="line"
+       id="tspan34"
+       x="873.98846"
+       y="656.44189"
+       style="stroke-width:1.03578">𓆊 Kommodo</tspan></text>
+  <!-- Lender -->
+  <text
+     x="669.6582"
+     y="170.09836"
+     text-anchor="middle"
+     class="section"
+     id="text7"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578">Lender</text>
+  <text
+     x="555.8429"
+     y="318.40253"
+     text-anchor="middle"
+     class="label"
+     id="text8"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578"><tspan
+       sodipodi:role="line"
+       id="tspan5"
+       x="555.8429"
+       y="318.40253"
+       style="stroke-width:1.03578">Deposit Token A or B</tspan><tspan
+       sodipodi:role="line"
+       id="tspan6"
+       x="555.8429"
+       y="338.40253"
+       style="stroke-width:1.03578">--</tspan><tspan
+       sodipodi:role="line"
+       x="555.8429"
+       y="358.40253"
+       id="tspan12"
+       style="stroke-width:1.03578">Open CLP</tspan></text>
+  <line
+     x1="674.72925"
+     y1="198.07204"
+     x2="674.72925"
+     y2="517.31555"
+     class="arrow"
+     marker-end="url(#arrow)"
+     id="line8" />
+  <text
+     x="773.47113"
+     y="318.39468"
+     text-anchor="middle"
+     class="label"
+     id="text9"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578"><tspan
+       sodipodi:role="line"
+       id="tspan9"
+       x="773.47113"
+       y="318.39468"
+       style="stroke-width:1.03578">Withdraw Token A or B</tspan><tspan
+       sodipodi:role="line"
+       id="tspan10"
+       x="773.47113"
+       y="338.39468"
+       style="stroke-width:1.03578">--</tspan><tspan
+       sodipodi:role="line"
+       x="773.47113"
+       y="358.39468"
+       id="tspan11"
+       style="stroke-width:1.03578">Close CLP</tspan></text>
+  <line
+     x1="702.10229"
+     y1="518.90271"
+     x2="702.10229"
+     y2="199.65918"
+     class="arrow"
+     marker-end="url(#arrow)"
+     id="line9" />
+  <!-- Borrower -->
+  <text
+     x="1103.036"
+     y="176.68965"
+     text-anchor="middle"
+     class="section"
+     id="text10"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578">Borrower</text>
+  <text
+     x="965.8515"
+     y="412.40488"
+     text-anchor="middle"
+     class="label"
+     id="text11"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578"><tspan
+       sodipodi:role="line"
+       id="tspan20"
+       x="965.8515"
+       y="412.40488"
+       style="stroke-width:1.03578">Deposit collateral Token</tspan><tspan
+       sodipodi:role="line"
+       x="965.8515"
+       y="433.13086"
+       style="stroke-width:1.03578"
+       id="tspan16">--</tspan><tspan
+       sodipodi:role="line"
+       x="965.8515"
+       y="453.85684"
+       style="stroke-width:1.03578"
+       id="tspan17">Close CLP -&gt; receive Token</tspan></text>
+  <line
+     x1="1124.186"
+     y1="199.65918"
+     x2="1124.186"
+     y2="518.90271"
+     class="arrow"
+     marker-end="url(#arrow)"
+     id="line11" />
+  <text
+     x="1223.7681"
+     y="412.41254"
+     text-anchor="middle"
+     class="label"
+     id="text12"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578"><tspan
+       sodipodi:role="line"
+       x="1223.7681"
+       y="412.41254"
+       style="stroke-width:1.03578"
+       id="tspan13">Deposit Token -&gt; open CLP</tspan><tspan
+       sodipodi:role="line"
+       x="1223.7681"
+       y="432.41254"
+       style="stroke-width:1.03578"
+       id="tspan14">--</tspan><tspan
+       sodipodi:role="line"
+       x="1223.7681"
+       y="452.41254"
+       style="stroke-width:1.03578"
+       id="tspan15">Withdraw collateral Token</tspan><tspan
+       sodipodi:role="line"
+       x="1223.7681"
+       y="472.41254"
+       id="tspan25"
+       style="stroke-width:1.03578" /></text>
+  <line
+     x1="1152.537"
+     y1="515.72833"
+     x2="1152.537"
+     y2="196.48489"
+     class="arrow"
+     marker-end="url(#arrow)"
+     id="line12" />
+  <!-- Only Komodo <-> AMM flows -->
+  <line
+     x1="593.09863"
+     y1="535.68115"
+     x2="378.02408"
+     y2="535.68115"
+     class="arrow"
+     marker-end="url(#arrow)"
+     id="line13" />
+  <text
+     x="467.6713"
+     y="532.6311"
+     text-anchor="middle"
+     class="small"
+     id="text13"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578"><tspan
+       sodipodi:role="line"
+       id="tspan4"
+       x="467.6713"
+       y="532.6311"
+       style="stroke-width:1.03578">Depositt Token A and/or B</tspan></text>
+  <line
+     x1="376.31329"
+     y1="559.71509"
+     x2="591.38776"
+     y2="559.71509"
+     class="arrow"
+     marker-end="url(#arrow)"
+     id="line14" />
+  <text
+     x="459.4429"
+     y="602.06372"
+     text-anchor="middle"
+     class="small"
+     id="text14"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578">Receive CLP</text>
+  <line
+     x1="589.67706"
+     y1="671.04218"
+     x2="374.60248"
+     y2="671.04218"
+     class="arrow"
+     marker-end="url(#arrow)"
+     id="line15" />
+  <text
+     x="456.14722"
+     y="684.69043"
+     text-anchor="middle"
+     class="small"
+     id="text15"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578">Deposit CLP</text>
+  <line
+     x1="371.18082"
+     y1="691.90186"
+     x2="586.25537"
+     y2="691.90186"
+     class="arrow"
+     marker-end="url(#arrow)"
+     id="line16" />
+  <text
+     x="457.7951"
+     y="744.24744"
+     text-anchor="middle"
+     class="small"
+     id="text16"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578">Receive Token A and/or B</text>
+  <text
+     x="170.36739"
+     y="435.39807"
+     text-anchor="middle"
+     class="section"
+     id="text39"
+     transform="scale(1.0382297,0.96317799)"
+     style="stroke-width:1.03578"><tspan
+       sodipodi:role="line"
+       id="tspan40"
+       x="170.36739"
+       y="435.39807"
+       style="stroke-width:1.03578">AMM</tspan></text>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#313131;stroke-width:2.183;stroke-opacity:0.478431"
+     id="rect1"
+     width="453.40909"
+     height="0"
+     x="35"
+     y="31.818182" />
+</svg>

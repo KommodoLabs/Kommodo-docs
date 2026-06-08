@@ -22,11 +22,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'No forced liquiditions',
+    title: 'No bad debt',
     Svg: require('@site/static/img/contract-small.svg').default,
     description: (
       <>
-        Solvency is guaranteed through the bonding curve. Removing the need for forced liquidations.
+        Solvency is guaranteed through the bonding curve. Removing the need for liquidations of insolvent positions.
       </>
     ),
   },

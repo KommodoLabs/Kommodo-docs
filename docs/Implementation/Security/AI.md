@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # AI analyses
 
-**Directory:** `test_other/audit_check/`
+**Directory:** `test_other/ai_check/`
 
 Two AI-assisted security reviews were conducted on the Kommodo protocol in March 2026. Their methodologies are described below.
 

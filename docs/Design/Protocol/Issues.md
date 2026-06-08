@@ -14,3 +14,5 @@ Loans with a rebasing collateral token can become insolvent if the rebasing is n
 ## Blacklisting tokens
 Tokens with a blacklist function can permanantly lock funds inside the protcol.
 
+Use of these tokens is not supported even when the protocol can handle it. For example blacklistable tokens can be used however the blacklist they can disable the deisgned function of the related Kommodo pools. 
+

@@ -12,7 +12,7 @@ The solvency guarantee at the start of the loan is fundemental to the design of 
 | `current price >= CLP higher bound`  | tokenB |
 
 ## Upper bound
-The CLP sets an upper bound (price) for `tokenA` in relation to `tokenB`. If the price of `tokenA` increases above this bound the CLP converts to `tokenB` essentialy capping the value. Inside the range the CLP start swapping `tokenA` for `tokenB` at prices lower than the upper bound. The upper bound therefore guarantees the maximum value of `tokenA` in relation to `tokenB`. Notice that `tokenA` and `tokenB` can be switched to hold the same guarantee from that perspective.
+The CLP sets an upper bound (price) for `tokenA` in relation to `tokenB`. If the price of `tokenA` increases above this bound the CLP converts to `tokenB` essentially capping the value. Inside the range the CLP start swapping `tokenA` for `tokenB` at prices lower than the upper bound. The upper bound therefore guarantees the maximum value of `tokenA` in relation to `tokenB`. Notice that `tokenA` and `tokenB` can be switched to hold the same guarantee from that perspective.
 
 When depositing `tokenA` the kommodo protocol checks `amount tokenA collateral == value tokenA CLP`. Since the CLP value is capped at amount `tokenA` this check guarantees solvency for the lifetime of the loan.
 
